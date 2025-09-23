@@ -8,6 +8,16 @@ nav ul li a:hover {
      border: 2px purple dotted;
 }
 
+.skip a {
+     position: relative;
+     top: -65px;
+}
+
+.skip a:focus {
+     position: relative;
+     top: 25px;
+}
+
 /*Write selector/rule property to position the default position for the skip class element*/
 
 
