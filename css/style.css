@@ -29,7 +29,10 @@ nav ul li a:hover {
 
 
 /*Write selector/rule property to style the container */
-.container
+.container {
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     gap: 13px;
+}
 
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 
