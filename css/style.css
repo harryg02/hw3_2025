@@ -8,27 +8,28 @@ nav ul li a:hover {
      border: 2px purple dotted;
 }
 
+
+/*Write selector/rule property to position the default position for the skip class element*/
 .skip a {
      position: relative;
      top: -65px;
 }
 
+
+/*Write selector/rule property to position the skip class element when it is in focus*/
 .skip a:focus {
      position: relative;
      top: 25px;
 }
 
-/*Write selector/rule property to position the default position for the skip class element*/
-
-
-/*Write selector/rule property to position the skip class element when it is in focus*/
-
 /*Write selector/rule property to style all elements when in focus*/
-
+*:focus {
+     border: 5px green dashed;
+}
 
 
 /*Write selector/rule property to style the container */
-
+.container
 
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 
